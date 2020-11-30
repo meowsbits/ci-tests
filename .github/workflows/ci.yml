@@ -8,6 +8,10 @@ jobs:
     name: CIStuff
     runs-on: ubuntu-latest
     steps:
+
+    - name: Check out code
+      uses: actions/checkout@v2
+
     - name: always fails
       shell: bash
       run: |
