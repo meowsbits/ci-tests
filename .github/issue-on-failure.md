@@ -1,6 +1,5 @@
 ---
 title: {{ action }} Failed
-labels: bug
 ---
 
 - Event : {{ event }}
