@@ -7,6 +7,7 @@ jobs:
   build:
     name: CIStuff
     runs-on: ubuntu-latest
+
     - name: always fails
       shell: bash
       run: |
