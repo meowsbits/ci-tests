@@ -1,9 +1,7 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: 'it failed'
+title: '{{ action }} failed'
 labels: 'bug'
-assignees: ''
+assignees: 'meowsbits'
 
 ---
 
