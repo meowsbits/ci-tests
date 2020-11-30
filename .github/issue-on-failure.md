@@ -1,6 +1,6 @@
 ---
 title: 'Cron DiscV4 DNS Crawler Failed'
-assignees: 'meowsbits'
+assignees: 'meowsbits,whilei'
 labels: 'bug'
 ---
 
