@@ -1,0 +1,20 @@
+name: Discv4 Crawl and DNS Update
+on:
+  push: '*'
+jobs:
+  build:
+    name: CIStuff
+    runs-on: ubuntu-latest
+    - name: always fails
+      shell: bash
+      run: |
+        echo failing
+        exit 1
+
+    - name: HandleIfFailure
+      if: failure()
+      uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        filename: .github/issue-on-failure.md
