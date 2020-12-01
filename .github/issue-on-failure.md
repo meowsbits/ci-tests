@@ -1,7 +1,7 @@
 ---
-title: 'Cron DiscV4 DNS Crawler Failed'
+title: Cron DiscV4 DNS Crawler Failed
 assignees: meowsbits
-labels: 'bug'
+labels: bug
 ---
 
 - Event : {{ event }}
