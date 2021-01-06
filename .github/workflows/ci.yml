@@ -9,7 +9,7 @@ on:
   
 jobs:
   build:
-    name: CIStuff
+    name: A failing job that creates an issue
     runs-on: ubuntu-latest
     steps:
 
