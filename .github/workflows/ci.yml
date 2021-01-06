@@ -1,4 +1,4 @@
-name: Discv4 Crawl and DNS Update
+name: This is the workflow that always fails
 on:
   push:
     branches:
