@@ -18,7 +18,9 @@ jobs:
 
     - name: always fails
       shell: bash
-      run: ./ci-script.sh
+      run: |
+        chmod +x ./ci-script.sh
+        ./ci-script.sh
 
     - name: HandleIfFailure
       if: failure()
