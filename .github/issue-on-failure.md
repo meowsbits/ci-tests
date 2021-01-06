@@ -1,5 +1,5 @@
 ---
-title: Cron DiscV4 DNS Crawler Failed
+title: __SOMEVAR__ This issue is created on a workflow failure
 assignees: meowsbits
 labels: bug
 ---
