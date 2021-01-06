@@ -20,12 +20,7 @@ jobs:
       shell: bash
       run: |
         echo failing
-        echo <<EOF
-        some useful information
-        
-        some more useful information
-        
-        EOF >> .github/issue-on-failure.md
+        echo some useful information >> .github/issue-on-failure.md
         exit 1
 
     - name: HandleIfFailure
