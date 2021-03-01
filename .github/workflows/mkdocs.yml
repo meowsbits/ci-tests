@@ -4,6 +4,10 @@ on:
     branches:
       - master
       - main
+    paths:
+      - '.github/workflows/mkdocs.yml'
+      - 'mkdocs.yml'
+      - 'docs/'
 jobs:
   deploy:
     runs-on: ubuntu-latest
