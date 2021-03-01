@@ -1,0 +1,22 @@
+name: Return vs. Exit
+
+on:
+
+  push:
+    branches:
+      - '*'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  testReturnVsExit:
+    name: Test run returns vs exit
+    runs-on: ubuntu-latest
+    steps:
+      - name: exiter
+        shell: bash
+        run: exit 0
+      - name: returner
+        shell: bash
+        run: return 1
