@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - '*'
+    paths:
+      - '.github/workflows/return-vs-exit.yml'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
