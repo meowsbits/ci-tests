@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - '*'
+    paths:
+      - '.github/workflows/github-actions-env.yaml'
   pull_request:
     branches:
       - '*'
