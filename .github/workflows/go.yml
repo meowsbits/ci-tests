@@ -34,5 +34,6 @@ jobs:
       run: |
         go help environment
         go env
+        go version
 
                                   
