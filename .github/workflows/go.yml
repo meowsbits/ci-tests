@@ -18,7 +18,20 @@ jobs:
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
-    - name: Run go stuff
+
+    - name: General environment
+      run: |
+        pwd
+        uname -a
+        compgen -A function
+    
+    - name: Go Tools
       run: |
         which gofmt
+
+    - name: Go Environment
+      run: |
+        go help environment
+        go env
+
                                   
