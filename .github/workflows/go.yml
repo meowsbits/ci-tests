@@ -23,7 +23,7 @@ jobs:
       run: |
         pwd
         uname -a
-        compgen -A function
+        compgen -A function || true
     
     - name: Go Tools
       run: |
