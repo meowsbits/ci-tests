@@ -21,7 +21,7 @@ jobs:
     name: Show Github Env vars
     runs-on: ubuntu-latest
     steps:
-      - name: Print em
+      - name: Print
         run: |
           echo -e "CI => $CI\n\tAlways set to true."
           echo -e "GITHUB_WORKFLOW => $GITHUB_WORKFLOW\n\tThe name of the workflow."
