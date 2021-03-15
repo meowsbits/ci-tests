@@ -1,10 +1,11 @@
-name: This is the workflow that always fails
+name: Always Fails
 on:
   push:
     branches:
       - master
     paths:
       - '.github/workflows/always-fails.yml'
+      - '.github/issue-on-failure.md'
       
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
