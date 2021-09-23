@@ -1,0 +1,26 @@
+name: Environment showing
+
+on:
+
+  push:
+    branches:
+      - '*'
+    paths:
+      - '.github/workflows/environment.yml'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  showEnvironment:
+    name: Show environment stuff
+    runs-on: ubuntu-latest
+    steps:
+      - name: env vars
+        run: env
+      - name: home dir
+        run: |
+          echo "HOME: $HOME"
+          ls -lshart "$HOME"
+          [[ -d $HOME/Android/Sdk ]] && "Android default home exists"
+          
